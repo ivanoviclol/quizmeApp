@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="WebServer">
+
+        <EditTextPreference
+            android:defaultValue="10.0.0.1"
+            android:key="pref_value_ip"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="IP Address" />
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="3000"
+        android:key="pref_value_port"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Port Number" />
+
+</PreferenceScreen>
